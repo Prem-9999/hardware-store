@@ -78,7 +78,7 @@ function orderWhatsApp() {
         msg += `${p.name} x${p.qty} = ₹${p.price*p.qty}%0A`;
     });
 
-    window.open(`https://wa.me/919348521404?text=${msg}`);
+    window.open(`https://wa.me/919110497287?text=${msg}`);
 }
 
 displayProducts(products);
