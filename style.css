@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f8fafc;
+}
+
+header {
+    background: #1E3A8A;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header input {
+    padding: 8px;
+    width: 250px;
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    width: 200px;
+    background: #e2e8f0;
+    padding: 15px;
+}
+
+.grid {
+    display: flex;
+    background-color: #F8FAFC;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.card {
+    background: #FFFFFF;
+    margin: 10px;
+    padding: 15px;
+    width: 180px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+}
+
+.cart {
+    width: 250px;
+}
+
+button {
+    background-color: #f97316;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ea580c;
+}

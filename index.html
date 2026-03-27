@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hardware Store Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Maa Baliarsingh Enterprises</h1>
+    <input type="text" id="search" placeholder="Search products..." onkeyup="searchProduct()">
+</header>
+
+<div class="container">
+
+    <aside>
+        <h3>Categories</h3>
+        <button onclick="filterCategory('all')">All</button>
+        <button onclick="filterCategory('tools')">Tools</button>
+        <button onclick="filterCategory('plumbing')">Plumbing</button>
+        <button onclick="filterCategory('others')">Others</button>
+    </aside>
+
+    <main>
+        <div id="products" class="grid"></div>
+    </main>
+
+    <aside class="cart">
+        <h3>🛒 Cart</h3>
+        <div id="cart-items"></div>
+        <h4 id="total">Total: ₹0</h4>
+        <button onclick="orderWhatsApp()">Order</button>
+    </aside>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
